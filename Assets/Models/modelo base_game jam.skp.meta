@@ -1,0 +1,853 @@
+fileFormatVersion: 2
+guid: aecf8ef306ffe0a46bea02735c5ef645
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f9000000fa000000fb000000fc000000fd000000fe000000ff000000000100000101000002010000030100000401000005010000060100000701000008010000090100000a0100000b0100000c0100000d0100000e0100000f010000100100001101000012010000130100001401000015010000160100001701000018010000190100001a0100001b0100001c0100001d0100001e0100001f010000200100002101000022010000230100002401000025010000260100002701000028010000290100002a0100002b0100002c0100002d0100002e0100002f010000300100003101000032010000330100003401000035010000360100003701000038010000390100003a0100003b0100003c0100003d0100003e0100003f0100004001000041010000420100004301000044010000
+  assetHash:
+    serializedVersion: 2
+    Hash: bb1ca5a5a1e5c1b3506f4e613268ef62
+  longitude: -46
+  latitude: -23
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 86.39675, y: 75.53728, z: -62.661423}
+      lookAt: {x: 4.001055, y: 1.6131413, z: 3.5557976}
+      up: {x: -0.4467177, y: 0.8194872, z: 0.3590042}
+      fov: 45
+      aspectRatio: 0
+      orthoSize: 320.84415
+      isPerspective: 0
+    scenes:
+    - camera:
+        position: {x: 86.39675, y: 75.53728, z: -62.661423}
+        lookAt: {x: 4.001055, y: 1.6131413, z: 3.5557976}
+        up: {x: -0.4467177, y: 0.8194872, z: 0.3590042}
+        fov: 45
+        aspectRatio: 0
+        orthoSize: 320.84415
+        isPerspective: 0
+      name: Scene 1
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: arch24_060
+    100002: arch24_063
+    100004: Component
+    100006: Component#1
+    100008: Component#10
+    100010: Component#11
+    100012: Component#12
+    100014: Component#13
+    100016: Component#13 1
+    100018: Component#14
+    100020: Component#2
+    100022: Component#24
+    100024: Component#25
+    100026: Component#256
+    100028: Component#256 1
+    100030: Component#259
+    100032: Component#259 1
+    100034: Component#4
+    100036: Component#5
+    100038: Component#6
+    100040: Component#7
+    100042: Component#8
+    100044: Component#9
+    100046: Difference2
+    100048: Estante de livros 04.1
+    100050: folha_janela
+    100052: folha_janela 1
+    100054: folha_janela 2
+    100056: folha_janela#1
+    100058: folha_janela#1 1
+    100060: folha_janela#1 2
+    100062: Group 1
+    100064: Group 108
+    100066: Group 109
+    100068: Group 11
+    100070: Group 111
+    100072: Group 112
+    100074: Group 114
+    100076: Group 115
+    100078: Group 117
+    100080: Group 118
+    100082: Group 120
+    100084: Group 121
+    100086: Group 123
+    100088: Group 124
+    100090: Group 126
+    100092: Group 127
+    100094: Group 129
+    100096: Group 13
+    100098: Group 130
+    100100: Group 132
+    100102: Group 133
+    100104: Group 135
+    100106: Group 137
+    100108: Group 139
+    100110: Group 14
+    100112: Group 141
+    100114: Group 143
+    100116: Group 145
+    100118: Group 147
+    100120: Group 149
+    100122: Group 151
+    100124: Group 155
+    100126: Group 157
+    100128: Group 159
+    100130: Group 16
+    100132: Group 160
+    100134: Group 162
+    100136: Group 164
+    100138: Group 166
+    100140: Group 169
+    100142: Group 174
+    100144: Group 176
+    100146: Group 179
+    100148: Group 18
+    100150: Group 181
+    100152: Group 184
+    100154: Group 186
+    100156: Group 189
+    100158: Group 191
+    100160: Group 194
+    100162: Group 196
+    100164: Group 199
+    100166: Group 2
+    100168: Group 201
+    100170: Group 204
+    100172: Group 205
+    100174: Group 207
+    100176: Group 208
+    100178: Group 210
+    100180: Group 212
+    100182: Group 216
+    100184: Group 221
+    100186: Group 222
+    100188: Group 223
+    100190: Group 225
+    100192: Group 227
+    100194: Group 229
+    100196: Group 23
+    100198: Group 230
+    100200: Group 232
+    100202: Group 234
+    100204: Group 236
+    100206: Group 237
+    100208: Group 239
+    100210: Group 241
+    100212: Group 245
+    100214: Group 246
+    100216: Group 248
+    100218: Group 25
+    100220: Group 250
+    100222: Group 252
+    100224: Group 253
+    100226: Group 255
+    100228: Group 257
+    100230: Group 259
+    100232: Group 26
+    100234: Group 260
+    100236: Group 274
+    100238: Group 275
+    100240: Group 28
+    100242: Group 281
+    100244: Group 283
+    100246: Group 287
+    100248: Group 289
+    100250: Group 294
+    100252: Group 30
+    100254: Group 307
+    100256: Group 308
+    100258: Group 310
+    100260: Group 315
+    100262: Group 316
+    100264: Group 318
+    100266: Group 32
+    100268: Group 320
+    100270: Group 323
+    100272: Group 34
+    100274: Group 36
+    100276: Group 37
+    100278: Group 39
+    100280: Group 4
+    100282: Group 41
+    100284: Group 43
+    100286: Group 45
+    100288: Group 47
+    100290: Group 49
+    100292: Group 51
+    100294: Group 53
+    100296: Group 54
+    100298: Group 56
+    100300: Group 58
+    100302: Group 6
+    100304: Group 68
+    100306: Group 7
+    100308: Group 70
+    100310: Group 71
+    100312: Group 73
+    100314: Group 75
+    100316: Group 77
+    100318: Group 79
+    100320: Group 84
+    100322: Group 87
+    100324: Group 88
+    100326: Group 89
+    100328: Group 9
+    100330: Group 93
+    100332: Group#74
+    100334: Group#93
+    100336: Hiroshima Sofa
+    100338: "janela_3m\xF3dulos"
+    100340: leuchten 66136 kare
+    100342: melk
+    100344: mesa de centro
+    100346: //RootNode
+    100348: OpenChallenge
+    100350: OuterShell
+    100352: OuterShell 1
+    100354: RF-C3
+    100356: RF-C3#1
+    100358: seduta03#1
+    100360: SimpleSphere02
+    100362: skpEF98
+    100364: STABIL ROUND MESA LATERAL 50
+    100366: steeltje
+    100368: Tea Spoon
+    100370: Tea Spoon 1
+    100372: Tea Spoon 2
+    100374: Tea Spoon 3
+    100376: Tea Spoon 4
+    100378: Union
+    100380: V-Ray Sphere
+    400000: arch24_060
+    400002: arch24_063
+    400004: Component
+    400006: Component#1
+    400008: Component#10
+    400010: Component#11
+    400012: Component#12
+    400014: Component#13
+    400016: Component#13 1
+    400018: Component#14
+    400020: Component#2
+    400022: Component#24
+    400024: Component#25
+    400026: Component#256
+    400028: Component#256 1
+    400030: Component#259
+    400032: Component#259 1
+    400034: Component#4
+    400036: Component#5
+    400038: Component#6
+    400040: Component#7
+    400042: Component#8
+    400044: Component#9
+    400046: Difference2
+    400048: Estante de livros 04.1
+    400050: folha_janela
+    400052: folha_janela 1
+    400054: folha_janela 2
+    400056: folha_janela#1
+    400058: folha_janela#1 1
+    400060: folha_janela#1 2
+    400062: Group 1
+    400064: Group 108
+    400066: Group 109
+    400068: Group 11
+    400070: Group 111
+    400072: Group 112
+    400074: Group 114
+    400076: Group 115
+    400078: Group 117
+    400080: Group 118
+    400082: Group 120
+    400084: Group 121
+    400086: Group 123
+    400088: Group 124
+    400090: Group 126
+    400092: Group 127
+    400094: Group 129
+    400096: Group 13
+    400098: Group 130
+    400100: Group 132
+    400102: Group 133
+    400104: Group 135
+    400106: Group 137
+    400108: Group 139
+    400110: Group 14
+    400112: Group 141
+    400114: Group 143
+    400116: Group 145
+    400118: Group 147
+    400120: Group 149
+    400122: Group 151
+    400124: Group 155
+    400126: Group 157
+    400128: Group 159
+    400130: Group 16
+    400132: Group 160
+    400134: Group 162
+    400136: Group 164
+    400138: Group 166
+    400140: Group 169
+    400142: Group 174
+    400144: Group 176
+    400146: Group 179
+    400148: Group 18
+    400150: Group 181
+    400152: Group 184
+    400154: Group 186
+    400156: Group 189
+    400158: Group 191
+    400160: Group 194
+    400162: Group 196
+    400164: Group 199
+    400166: Group 2
+    400168: Group 201
+    400170: Group 204
+    400172: Group 205
+    400174: Group 207
+    400176: Group 208
+    400178: Group 210
+    400180: Group 212
+    400182: Group 216
+    400184: Group 221
+    400186: Group 222
+    400188: Group 223
+    400190: Group 225
+    400192: Group 227
+    400194: Group 229
+    400196: Group 23
+    400198: Group 230
+    400200: Group 232
+    400202: Group 234
+    400204: Group 236
+    400206: Group 237
+    400208: Group 239
+    400210: Group 241
+    400212: Group 245
+    400214: Group 246
+    400216: Group 248
+    400218: Group 25
+    400220: Group 250
+    400222: Group 252
+    400224: Group 253
+    400226: Group 255
+    400228: Group 257
+    400230: Group 259
+    400232: Group 26
+    400234: Group 260
+    400236: Group 274
+    400238: Group 275
+    400240: Group 28
+    400242: Group 281
+    400244: Group 283
+    400246: Group 287
+    400248: Group 289
+    400250: Group 294
+    400252: Group 30
+    400254: Group 307
+    400256: Group 308
+    400258: Group 310
+    400260: Group 315
+    400262: Group 316
+    400264: Group 318
+    400266: Group 32
+    400268: Group 320
+    400270: Group 323
+    400272: Group 34
+    400274: Group 36
+    400276: Group 37
+    400278: Group 39
+    400280: Group 4
+    400282: Group 41
+    400284: Group 43
+    400286: Group 45
+    400288: Group 47
+    400290: Group 49
+    400292: Group 51
+    400294: Group 53
+    400296: Group 54
+    400298: Group 56
+    400300: Group 58
+    400302: Group 6
+    400304: Group 68
+    400306: Group 7
+    400308: Group 70
+    400310: Group 71
+    400312: Group 73
+    400314: Group 75
+    400316: Group 77
+    400318: Group 79
+    400320: Group 84
+    400322: Group 87
+    400324: Group 88
+    400326: Group 89
+    400328: Group 9
+    400330: Group 93
+    400332: Group#74
+    400334: Group#93
+    400336: Hiroshima Sofa
+    400338: "janela_3m\xF3dulos"
+    400340: leuchten 66136 kare
+    400342: melk
+    400344: mesa de centro
+    400346: //RootNode
+    400348: OpenChallenge
+    400350: OuterShell
+    400352: OuterShell 1
+    400354: RF-C3
+    400356: RF-C3#1
+    400358: seduta03#1
+    400360: SimpleSphere02
+    400362: skpEF98
+    400364: STABIL ROUND MESA LATERAL 50
+    400366: steeltje
+    400368: Tea Spoon
+    400370: Tea Spoon 1
+    400372: Tea Spoon 2
+    400374: Tea Spoon 3
+    400376: Tea Spoon 4
+    400378: Union
+    400380: V-Ray Sphere
+    2100000: _defaultMat
+    2100002: '[Color M01]'
+    2100004: '[Translucent Glass Gray]'
+    2300000: arch24_060
+    2300002: arch24_063
+    2300004: Component
+    2300006: Component#10
+    2300008: Component#13
+    2300010: Component#13 1
+    2300012: Component#24
+    2300014: Component#25
+    2300016: Component#256
+    2300018: Component#256 1
+    2300020: Component#259
+    2300022: Component#259 1
+    2300024: Component#8
+    2300026: Component#9
+    2300028: Difference2
+    2300030: Group 109
+    2300032: Group 11
+    2300034: Group 112
+    2300036: Group 115
+    2300038: Group 118
+    2300040: Group 121
+    2300042: Group 124
+    2300044: Group 127
+    2300046: Group 130
+    2300048: Group 133
+    2300050: Group 135
+    2300052: Group 137
+    2300054: Group 139
+    2300056: Group 14
+    2300058: Group 141
+    2300060: Group 143
+    2300062: Group 145
+    2300064: Group 147
+    2300066: Group 149
+    2300068: Group 151
+    2300070: Group 155
+    2300072: Group 157
+    2300074: Group 16
+    2300076: Group 160
+    2300078: Group 162
+    2300080: Group 164
+    2300082: Group 166
+    2300084: Group 169
+    2300086: Group 174
+    2300088: Group 176
+    2300090: Group 179
+    2300092: Group 181
+    2300094: Group 184
+    2300096: Group 186
+    2300098: Group 189
+    2300100: Group 191
+    2300102: Group 194
+    2300104: Group 196
+    2300106: Group 199
+    2300108: Group 2
+    2300110: Group 201
+    2300112: Group 205
+    2300114: Group 208
+    2300116: Group 210
+    2300118: Group 212
+    2300120: Group 216
+    2300122: Group 223
+    2300124: Group 225
+    2300126: Group 227
+    2300128: Group 23
+    2300130: Group 230
+    2300132: Group 232
+    2300134: Group 234
+    2300136: Group 237
+    2300138: Group 239
+    2300140: Group 241
+    2300142: Group 246
+    2300144: Group 248
+    2300146: Group 250
+    2300148: Group 253
+    2300150: Group 255
+    2300152: Group 257
+    2300154: Group 26
+    2300156: Group 260
+    2300158: Group 275
+    2300160: Group 28
+    2300162: Group 281
+    2300164: Group 283
+    2300166: Group 287
+    2300168: Group 289
+    2300170: Group 294
+    2300172: Group 30
+    2300174: Group 308
+    2300176: Group 310
+    2300178: Group 316
+    2300180: Group 318
+    2300182: Group 32
+    2300184: Group 320
+    2300186: Group 323
+    2300188: Group 34
+    2300190: Group 37
+    2300192: Group 39
+    2300194: Group 4
+    2300196: Group 41
+    2300198: Group 43
+    2300200: Group 45
+    2300202: Group 47
+    2300204: Group 49
+    2300206: Group 51
+    2300208: Group 54
+    2300210: Group 56
+    2300212: Group 68
+    2300214: Group 7
+    2300216: Group 71
+    2300218: Group 73
+    2300220: Group 75
+    2300222: Group 77
+    2300224: Group 79
+    2300226: Group 84
+    2300228: Group 89
+    2300230: Group 9
+    2300232: Group 93
+    2300234: Hiroshima Sofa
+    2300236: melk
+    2300238: mesa de centro
+    2300240: OuterShell
+    2300242: OuterShell 1
+    2300244: RF-C3#1
+    2300246: seduta03#1
+    2300248: SimpleSphere02
+    2300250: STABIL ROUND MESA LATERAL 50
+    2300252: steeltje
+    2300254: Tea Spoon
+    2300256: Tea Spoon 1
+    2300258: Tea Spoon 2
+    2300260: Tea Spoon 3
+    2300262: Tea Spoon 4
+    2300264: Union
+    2300266: V-Ray Sphere
+    3300000: arch24_060
+    3300002: arch24_063
+    3300004: Component
+    3300006: Component#10
+    3300008: Component#13
+    3300010: Component#13 1
+    3300012: Component#24
+    3300014: Component#25
+    3300016: Component#256
+    3300018: Component#256 1
+    3300020: Component#259
+    3300022: Component#259 1
+    3300024: Component#8
+    3300026: Component#9
+    3300028: Difference2
+    3300030: Group 109
+    3300032: Group 11
+    3300034: Group 112
+    3300036: Group 115
+    3300038: Group 118
+    3300040: Group 121
+    3300042: Group 124
+    3300044: Group 127
+    3300046: Group 130
+    3300048: Group 133
+    3300050: Group 135
+    3300052: Group 137
+    3300054: Group 139
+    3300056: Group 14
+    3300058: Group 141
+    3300060: Group 143
+    3300062: Group 145
+    3300064: Group 147
+    3300066: Group 149
+    3300068: Group 151
+    3300070: Group 155
+    3300072: Group 157
+    3300074: Group 16
+    3300076: Group 160
+    3300078: Group 162
+    3300080: Group 164
+    3300082: Group 166
+    3300084: Group 169
+    3300086: Group 174
+    3300088: Group 176
+    3300090: Group 179
+    3300092: Group 181
+    3300094: Group 184
+    3300096: Group 186
+    3300098: Group 189
+    3300100: Group 191
+    3300102: Group 194
+    3300104: Group 196
+    3300106: Group 199
+    3300108: Group 2
+    3300110: Group 201
+    3300112: Group 205
+    3300114: Group 208
+    3300116: Group 210
+    3300118: Group 212
+    3300120: Group 216
+    3300122: Group 223
+    3300124: Group 225
+    3300126: Group 227
+    3300128: Group 23
+    3300130: Group 230
+    3300132: Group 232
+    3300134: Group 234
+    3300136: Group 237
+    3300138: Group 239
+    3300140: Group 241
+    3300142: Group 246
+    3300144: Group 248
+    3300146: Group 250
+    3300148: Group 253
+    3300150: Group 255
+    3300152: Group 257
+    3300154: Group 26
+    3300156: Group 260
+    3300158: Group 275
+    3300160: Group 28
+    3300162: Group 281
+    3300164: Group 283
+    3300166: Group 287
+    3300168: Group 289
+    3300170: Group 294
+    3300172: Group 30
+    3300174: Group 308
+    3300176: Group 310
+    3300178: Group 316
+    3300180: Group 318
+    3300182: Group 32
+    3300184: Group 320
+    3300186: Group 323
+    3300188: Group 34
+    3300190: Group 37
+    3300192: Group 39
+    3300194: Group 4
+    3300196: Group 41
+    3300198: Group 43
+    3300200: Group 45
+    3300202: Group 47
+    3300204: Group 49
+    3300206: Group 51
+    3300208: Group 54
+    3300210: Group 56
+    3300212: Group 68
+    3300214: Group 7
+    3300216: Group 71
+    3300218: Group 73
+    3300220: Group 75
+    3300222: Group 77
+    3300224: Group 79
+    3300226: Group 84
+    3300228: Group 89
+    3300230: Group 9
+    3300232: Group 93
+    3300234: Hiroshima Sofa
+    3300236: melk
+    3300238: mesa de centro
+    3300240: OuterShell
+    3300242: OuterShell 1
+    3300244: RF-C3#1
+    3300246: seduta03#1
+    3300248: SimpleSphere02
+    3300250: STABIL ROUND MESA LATERAL 50
+    3300252: steeltje
+    3300254: Tea Spoon
+    3300256: Tea Spoon 1
+    3300258: Tea Spoon 2
+    3300260: Tea Spoon 3
+    3300262: Tea Spoon 4
+    3300264: Union
+    3300266: V-Ray Sphere
+    4300000: Mesh Group 2
+    4300002: Mesh Group 4
+    4300004: Mesh Group 11
+    4300006: Mesh Group 14
+    4300008: Mesh Group 16
+    4300010: Mesh Union
+    4300012: Mesh Difference2
+    4300014: Mesh Group 23
+    4300016: Mesh Group 26
+    4300018: Mesh Group 28
+    4300020: Mesh Group 37
+    4300022: Mesh Group 39
+    4300024: Mesh Group 41
+    4300026: Mesh Group 43
+    4300028: Mesh Group 49
+    4300030: Mesh Group 51
+    4300032: Mesh arch24_060
+    4300034: Mesh arch24_063
+    4300036: Mesh RF-C3#1
+    4300038: Mesh Group 68
+    4300040: Mesh Group 71
+    4300042: Mesh Group 75
+    4300044: Mesh Group 77
+    4300046: Mesh STABIL ROUND MESA LATERAL 50
+    4300048: Mesh Group 84
+    4300050: Mesh Group 89
+    4300052: Mesh seduta03#1
+    4300054: Mesh Group 93
+    4300056: Mesh Component#259
+    4300058: Mesh Component#256
+    4300060: Mesh Component#24
+    4300062: Mesh Component#25
+    4300064: Mesh Group 109
+    4300066: Mesh Group 115
+    4300068: Mesh Group 121
+    4300070: Mesh Group 127
+    4300072: Mesh Group 130
+    4300074: Mesh Group 145
+    4300076: Mesh Group 147
+    4300078: Mesh Group 149
+    4300080: Mesh Hiroshima Sofa
+    4300082: Mesh Group 155
+    4300084: Mesh Group 157
+    4300086: Mesh Group 160
+    4300088: Mesh Group 162
+    4300090: Mesh Group 164
+    4300092: Mesh Group 166
+    4300094: Mesh Group 169
+    4300096: Mesh OuterShell
+    4300098: Mesh Group 174
+    4300100: Mesh Group 176
+    4300102: Mesh Group 189
+    4300104: Mesh Group 191
+    4300106: Mesh Group 205
+    4300108: Mesh Group 208
+    4300110: Mesh Group 210
+    4300112: Mesh Group 212
+    4300114: Mesh Component
+    4300116: Mesh Group 216
+    4300118: Mesh mesa de centro
+    4300120: Mesh Group 223
+    4300122: Mesh Group 227
+    4300124: Mesh Group 230
+    4300126: Mesh Group 232
+    4300128: Mesh Group 234
+    4300130: Mesh OuterShell
+    4300132: Mesh Group 260
+    4300134: Mesh Tea Spoon
+    4300136: Mesh Group 275
+    4300138: Mesh steeltje
+    4300140: Mesh SimpleSphere02
+    4300142: Mesh Group 281
+    4300144: Mesh Group 283
+    4300146: Mesh melk
+    4300148: Mesh Group 294
+    4300150: Mesh Component#8
+    4300152: Mesh Component#10
+    4300154: Mesh Component#9
+    4300156: Mesh Component#13
+    4300158: Mesh Group 308
+    4300160: Mesh Group 310
+    4300162: Mesh V-Ray Sphere
+    4300164: Mesh Group 316
+    4300166: Mesh Group 318
+    4300168: Mesh Group 323
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
