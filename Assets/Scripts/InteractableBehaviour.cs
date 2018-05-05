@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class InteractableBehaviour : MonoBehaviour {
 
-    public Dialogue lookAtText;
+    public Dialogue lookText;
 
 	public void ShowLookAtText()
     {
-        FindObjectOfType<DialogueManager>().StartDialogue(lookAtText);
+        FindObjectOfType<DialogueManager>().StartDialogue(lookText);
     }
 }
