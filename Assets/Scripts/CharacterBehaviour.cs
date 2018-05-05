@@ -5,15 +5,9 @@ using UnityEngine.AI;
 
 public class CharacterBehaviour : MonoBehaviour {
 
-    NavmeshAgent agent;
+    NavMeshAgent agent;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+	void Move(Vector3 pos){
+		agent.target = pos;
 	}
 }
