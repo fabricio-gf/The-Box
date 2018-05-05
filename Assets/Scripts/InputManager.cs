@@ -16,7 +16,6 @@ public class InputManager : MonoBehaviour {
     private void Update()
     {
         if (Input.GetMouseButtonDown(0)) {
-            print("click");
             RaycastHit hit;
 
             if (Physics.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition), out hit, 1000))
@@ -24,7 +23,6 @@ public class InputManager : MonoBehaviour {
                 print(hit.transform.name);
                 if(hit.transform.tag == "Ground")
                 {
-                    print("HIT");
                     Move(hit.point);
                 }
             }
@@ -33,7 +31,6 @@ public class InputManager : MonoBehaviour {
 
     void Move(Vector3 pos)
     {
-        print(pos);
         agent.destination = pos;
     }
 }

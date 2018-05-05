@@ -6,6 +6,9 @@ public class InteractableBehaviour : MonoBehaviour {
 
     public Dialogue lookText;
 
+    public bool canInteract;
+    public bool interactText;
+
 	public void ShowLookAtText()
     {
         FindObjectOfType<DialogueManager>().StartDialogue(lookText);
