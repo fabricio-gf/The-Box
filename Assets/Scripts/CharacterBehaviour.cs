@@ -8,6 +8,6 @@ public class CharacterBehaviour : MonoBehaviour {
     NavMeshAgent agent;
 
 	void Move(Vector3 pos){
-		agent.target = pos;
+		agent.destination = pos;
 	}
 }

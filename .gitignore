@@ -11,6 +11,7 @@ sysinfo.txt
 *.pidb.meta
  
 # VS/Rider/MD/Consulo
+.vs/
 ExportedObj/
 .consulo/
 .idea/

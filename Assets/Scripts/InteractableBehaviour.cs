@@ -4,13 +4,10 @@ using UnityEngine;
 
 public class InteractableBehaviour : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public Dialogue lookAtText;
+
+	public void ShowLookAtText()
+    {
+        FindObjectOfType<DialogueManager>().StartDialogue(lookAtText);
+    }
 }
