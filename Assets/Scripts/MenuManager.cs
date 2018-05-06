@@ -5,16 +5,29 @@ using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour {
 
-	public AudioSource music;
+    public static MenuManager Instance;
+
+	AudioSource music;
     public GameObject quitPanel;
     bool isQuitPanelOpen = false;
+
+    public Animator BlackScreen;
+
+    public NarratorBehaviour narrator;
+
+    private void Start()
+    {
+        if (SceneManager.GetActiveScene().name == "Game")
+        {
+            StartCoroutine(FadeIn());
+        }
+        music = GameObject.FindGameObjectWithTag("Music").GetComponent<AudioSource>();
+    }
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            print("pause");
-
             if (!isQuitPanelOpen)
                 OpenPanel(quitPanel);
             else
@@ -44,6 +57,21 @@ public class MenuManager : MonoBehaviour {
 	}
 
 	public void ChangeScene(string sceneName){
-		SceneManager.LoadScene (sceneName);
+        StartCoroutine(FadeOut(sceneName));		
 	}
+
+    IEnumerator FadeIn()
+    {
+        BlackScreen.SetBool("isOn", false);
+        yield return new WaitForSeconds(0.5f);
+        narrator.ShowNextDialogue();
+    }
+
+    IEnumerator FadeOut(string sceneName)
+    {
+        BlackScreen.SetBool("isOn", true);
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadScene(sceneName);
+    }
+
 }

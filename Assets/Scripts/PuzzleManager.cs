@@ -26,9 +26,6 @@ public class PuzzleManager : MonoBehaviour {
             //Then destroy this. This enforces our singleton pattern, meaning there can only ever be one instance of a GameManager.
             Destroy(gameObject);
 
-        //Sets this to not be destroyed when reloading scene
-        DontDestroyOnLoad(gameObject);
-
         PuzzleList[0].canInteract = true;
     }
 	
@@ -38,7 +35,13 @@ public class PuzzleManager : MonoBehaviour {
         {
             case 0:
                 ItemListAnimator.SetBool("isOpen", true);
-                //add item?
+                ItemManager.Instance.ShowNextItem();
+                break;
+            case 1:
+                ItemManager.Instance.ShowNextItem();
+                break;
+            case 6:
+                ItemManager.Instance.ShowNextItem();
                 break;
             default:
                 break;

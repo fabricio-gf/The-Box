@@ -51,6 +51,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 551275d1d3f79f745a07ce58520c089e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: {fileID: 0}
   dialogueText: {fileID: 0}
   animator: {fileID: 0}
+  isTalking: 0

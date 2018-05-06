@@ -11,6 +11,22 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1856312997525208}
   m_IsPrefabParent: 1
+--- !u!1 &1048330015694234
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4235436523446342}
+  - component: {fileID: 114819377541221768}
+  m_Layer: 0
+  m_Name: Narrator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &1083534523276022
 GameObject:
   m_ObjectHideFlags: 0
@@ -39,6 +55,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4628768838581330}
   - component: {fileID: 212072577804159718}
+  - component: {fileID: 61388163487109746}
+  - component: {fileID: 114372260217768812}
+  - component: {fileID: 114261961461942708}
   m_Layer: 0
   m_Name: "base_gj_bot\xE3o"
   m_TagString: Untagged
@@ -280,9 +299,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4693670675910146}
   - component: {fileID: 212067650144368086}
-  - component: {fileID: 114149794377974314}
-  - component: {fileID: 60653702964346100}
-  - component: {fileID: 114832204781732218}
   m_Layer: 0
   m_Name: "base_gj_base bot\xE3o"
   m_TagString: Interactable
@@ -449,7 +465,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4098507703259452
 Transform:
@@ -462,7 +478,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4170546003412208
 Transform:
@@ -475,7 +491,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4222274999332402
 Transform:
@@ -488,7 +504,20 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 7
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4235436523446342
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1048330015694234}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4471430037639712}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4268088283922896
 Transform:
@@ -501,7 +530,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4282101674369996
 Transform:
@@ -514,7 +543,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4354588556316710
 Transform:
@@ -527,7 +556,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4391929177888710
 Transform:
@@ -540,7 +569,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4397570385525290
 Transform:
@@ -553,7 +582,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4471430037639712
 Transform:
@@ -565,6 +594,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 4235436523446342}
   - {fileID: 4766057047977824}
   - {fileID: 4282101674369996}
   - {fileID: 4891824876593314}
@@ -599,7 +629,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4628768838581330
 Transform:
@@ -625,7 +655,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4693670675910146
 Transform:
@@ -639,7 +669,7 @@ Transform:
   m_Children:
   - {fileID: 4628768838581330}
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4695727589061284
 Transform:
@@ -652,7 +682,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4700370379642678
 Transform:
@@ -678,7 +708,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4766057047977824
 Transform:
@@ -691,7 +721,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4845990409124436
 Transform:
@@ -704,7 +734,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4875837655125142
 Transform:
@@ -718,7 +748,7 @@ Transform:
   m_Children:
   - {fileID: 4700370379642678}
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4891824876593314
 Transform:
@@ -731,7 +761,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4896674714475792
 Transform:
@@ -744,7 +774,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4970923242103648
 Transform:
@@ -757,7 +787,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &23930001250570376
 MeshRenderer:
@@ -1089,34 +1119,6 @@ PolygonCollider2D:
       - {x: -3.610781, y: -0.08397102}
       - {x: 0.9864335, y: 2.1067}
       - {x: 3.5109606, y: 0.11804867}
---- !u!60 &60653702964346100
-PolygonCollider2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1530920612454324}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.13, y: 0.76}
-    newSize: {x: 1.13, y: 0.76}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.00603199, y: -0.64140534}
-      - {x: 0.93575144, y: -0.07181835}
-      - {x: 0.045987725, y: 0.6690519}
-      - {x: -0.9467405, y: 0.0669961}
 --- !u!60 &60666506670594354
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -1350,6 +1352,31 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6428967, y: 1.6323767}
   m_EdgeRadius: 0
+--- !u!61 &61388163487109746
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1106043389434974}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.1102072, y: -0.046862602}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.5, y: 0.4}
+    newSize: {x: 0.5, y: 0.4}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.1743631, y: 1.6234441}
+  m_EdgeRadius: 0
 --- !u!61 &61734381024633066
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -1408,19 +1435,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookText:
-    name: 
     sentences:
     - A center table with some mugs and coffee on top. I don't like these guys, but
       at least they have the decency to offer me something to drink.
   altLook: 0
   altLookText:
-    name: 
     sentences:
     - A center table with some mugs and coffee on top. I don't like these guys, but
       at least they have the decency to offer me something to drink.
+    - I found a note under the table, from an ally on the inside. He said there are
+      things inside this room that will help me get outside.
   canInteract: 0
   interactText:
-    name: 
     sentences:
     - Wait, there's something under the coffee mug. A note?
     - '"I want to help you get out of here. I''ve hidden things in this room that
@@ -1428,6 +1454,8 @@ MonoBehaviour:
       X"'
     - Great! I have an ally on the inside, it seems. Now I just have to find the way
       out.
+    - 'Speaker: "Please refrain from tampering unnecessarily with the room''s furniture.
+      You are here for one job only, and that is to press the button when instructed".'
 --- !u!114 &114102131519128402
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1440,16 +1468,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookText:
-    name: 
     sentences:
     - A rug. Kind of fluffy, and has a strong color. I wonder what it's made of.
   altLook: 0
   altLookText:
-    name: 
     sentences: []
   canInteract: 0
   interactText:
-    name: 
     sentences: []
 --- !u!114 &114109165120602466
 MonoBehaviour:
@@ -1481,31 +1506,6 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
---- !u!114 &114149794377974314
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1530920612454324}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4c9e56e1cda98543a599edc07cd75f6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  lookText:
-    name: 
-    sentences:
-    - A big red button. This damn thing... Is this some kind of joke? Every time I
-      press it when that light is on, I'm supposed to get a "reward". Am I just an
-      experiment here?
-  altLook: 0
-  altLookText:
-    name: 
-    sentences: []
-  canInteract: 0
-  interactText:
-    name: 
-    sentences: []
 --- !u!114 &114172040407105966
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1518,17 +1518,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookText:
-    name: 
     sentences:
     - Cameras... Those bastards are gonna be watching me all day, every day. It sickens
       me...
   altLook: 0
   altLookText:
-    name: 
     sentences: []
   canInteract: 0
   interactText:
-    name: 
     sentences: []
 --- !u!114 &114174098477075500
 MonoBehaviour:
@@ -1620,6 +1617,36 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
+--- !u!114 &114261961461942708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1106043389434974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 4
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 114372260217768812}
+          m_MethodName: PressButton
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
+        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  delegates: []
 --- !u!114 &114297903148083416
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1632,20 +1659,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookText:
-    name: 
     sentences:
-    - A plain hard table. Nothing fancy. Has a drawer with a keyhole, but it's locked.
+    - A plain hard table. Nothing fancy.
+    - Has a drawer with a keyhole, but it's locked.
   altLook: 0
   altLookText:
-    name: 
-    sentences: []
+    sentences:
+    - A plain hard table. Nothing fancy.
+    - The drawer is now open. There is a color puzzle inside.
   canInteract: 0
   interactText:
-    name: 
     sentences:
     - The key fits in this drawer lock. I can open it now.
     - There's some kind of color puzzle here. I wonder if I can find something in
       this room that will help me solve it.
+    - 'Speaker: "Look, I have a job to do, and so do you. Why don''t you stick to
+      what I told you to do and I can ignore any... misconduct from your part."'
 --- !u!114 &114308683360192492
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1688,18 +1717,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookText:
-    name: 
     sentences:
     - I think this display shows how many times I pressed that button correctly. I
       guess this is all just a game for them, huh?
+    - There is also a small number panel on the side, but it doesn't look like I can
+      do anything with it now.
   altLook: 0
   altLookText:
-    name: 
-    sentences: []
+    sentences:
+    - I think this display shows how many times I pressed that button correctly. I
+      guess this is all just a game for them, huh?
+    - There is also a small number panel on the side. I already used the code on it,
+      and something fell from the chute.
   canInteract: 0
   interactText:
-    name: 
-    sentences: []
+    sentences:
+    - This number panel looks like the right place I can put the code from earlier.
+      So I just press 9... 5... 0... 4... and enter.
+    - Oh, I just heard something fall from the metal chute over there. I should check
+      that out. Maybe something useful fell in the plate.
+    - 'Speaker: "If you don''t collaborate, we have no need for you any more. I can
+      snap my fingers and have you dissappear from this life. Is that what you want?"'
 --- !u!114 &114321037562479518
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1712,17 +1750,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookText:
-    name: 
     sentences:
     - I can see a city down there. Is it my city? I don't even know, it all seems
       so unreal from here.
   altLook: 0
   altLookText:
-    name: 
     sentences: []
   canInteract: 0
   interactText:
-    name: 
     sentences: []
 --- !u!114 &114328888689116294
 MonoBehaviour:
@@ -1766,17 +1801,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookText:
-    name: 
     sentences:
     - Every couple minutes the light goes on. If I press that button when the light
       is on, I get the "reward". Talk about acting like a lab rat...
   altLook: 0
   altLookText:
-    name: 
     sentences: []
   canInteract: 0
   interactText:
-    name: 
     sentences: []
 --- !u!114 &114344205917826074
 MonoBehaviour:
@@ -1808,6 +1840,32 @@ MonoBehaviour:
       m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
         Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   delegates: []
+--- !u!114 &114372260217768812
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1106043389434974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8b424d7b12afcd4caed2be8e1785e7b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayText: {fileID: 102927970155457970}
+  points: 0
+  lightDialogue:
+    sentences:
+    - The light goes on. It's time to press the button, and get a reward.
+  wrongDialogue:
+    sentences:
+    - I hear a buzzard and a jolt of electricity runs through my arm. It feels numb
+      now. That was not pleasant at all.
+  rightDialogue:
+    sentences:
+    - I hear a "DING" and the number on the panel to my right goes up by one. Also,
+      I hear something fall down the metal chute.
+    - It's a white pill. It tastes amazing, and gives me a small high. Unfortunately
+      it only lasts 30 seconds. Is this their idea of a reward?
 --- !u!114 &114406461690712930
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1820,17 +1878,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookText:
-    name: 
     sentences:
     - A big metal chute. Whenever I press the button at the right times, a pill comes
       down. That's their idea of "reward"...
   altLook: 0
   altLookText:
-    name: 
     sentences: []
   canInteract: 0
   interactText:
-    name: 
     sentences: []
 --- !u!114 &114410523437542146
 MonoBehaviour:
@@ -1844,16 +1899,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookText:
-    name: 
-    sentences: []
+    sentences:
+    - These paintings look vibrant and colorful. But nothing more than abstract art,
+      I guess.
   altLook: 0
   altLookText:
-    name: 
-    sentences: []
+    sentences:
+    - These paintings look vibrant and colorful. They have the solution to the color
+      puzzle inside the drawer, "Psychology 247".
   canInteract: 0
   interactText:
-    name: 
-    sentences: []
+    sentences:
+    - Wait a minute... These are the same colors that are in the color puzzle. Maybe
+      if I take this... and rearrange there...
+    - Yes! I've found the solution. The color puzzle gives me the word "Psychology
+      247". Now what am I supposed to do with this?
+    - 'Speaker: "Sigh. Look buddy, you''re gonna force me to do something I really
+      don''t want to do. But soon, you won''t leave me any choice."'
 --- !u!114 &114425378143208930
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1866,16 +1928,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookText:
-    name: 
     sentences:
     - Oh, coffee! And it's from Jam brand. My favorite.
   altLook: 0
   altLookText:
-    name: 
     sentences: []
   canInteract: 0
   interactText:
-    name: 
     sentences: []
 --- !u!114 &114426452770048440
 MonoBehaviour:
@@ -1889,17 +1948,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookText:
-    name: 
     sentences:
     - A standing light that I can turn on and off. Doesn't make much of a differente
       inside this brightly lit room.
   altLook: 0
   altLookText:
-    name: 
     sentences: []
   canInteract: 0
   interactText:
-    name: 
     sentences: []
 --- !u!114 &114452650571800726
 MonoBehaviour:
@@ -1913,18 +1969,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookText:
-    name: 
     sentences:
     - A metal plate on top of a small table. Anything that falls from the chute above
       stays here.
   altLook: 0
   altLookText:
-    name: 
-    sentences: []
+    sentences:
+    - A metal plate on top of a small table. Anything that falls from the chute above
+      stays here. I got a key from it right now. I should try it on the door.
   canInteract: 0
   interactText:
-    name: 
-    sentences: []
+    sentences:
+    - Oh, it was a key that fell here! I really hope this is the one that leads outside!
+    - 'Speaker: "Well, I tried to reason with you. I just called security, and they
+      are on their way right now. I wished you just obeyed your orders from the beginning.
+      Now, both of us are gonna have blood on our hands... Not in the same way, of
+      course."'
 --- !u!114 &114458938074453830
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1997,17 +2057,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookText:
-    name: 
     sentences:
     - A double seat sofa. I guess there I can sleep here if things go on like this
       for a while.
   altLook: 0
   altLookText:
-    name: 
     sentences: []
   canInteract: 0
   interactText:
-    name: 
     sentences: []
 --- !u!114 &114620147673493206
 MonoBehaviour:
@@ -2081,19 +2138,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookText:
-    name: 
     sentences:
     - A medium bookcase. Has lots of books on the shelves, most of them are about
       medicine, physics, psychology, philosofy. Not really interested in reading now,
       to be honest...
   altLook: 0
   altLookText:
-    name: 
-    sentences: []
+    sentences:
+    - A medium bookcase. Has lots of books on the shelves, most of them are about
+      medicine, physics, psychology, philosofy. I found a code "9504" inside the psychology
+      book.
   canInteract: 0
   interactText:
-    name: 
-    sentences: []
+    sentences:
+    - Oh, there's a book about psychology here. Maybe I can find a clue inside.
+    - Aha! There is something scribbled on the 247th page. It says "9504". Maybe it's
+      a code of some sort.
+    - 'Speaker: "Stop this right now. I''m warning you. You. Will. Regret. This."'
 --- !u!114 &114716390556704444
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2106,20 +2167,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookText:
-    name: 
     sentences:
     - A potted plant. Smells nice, suits to bring some life to the room.
   altLook: 0
   altLookText:
-    name: 
-    sentences: []
+    sentences:
+    - A potted plant. Smells nice, suits to bring some life to the room. I found a
+      small key inside the pot.
   canInteract: 0
   interactText:
-    name: 
     sentences:
     - Hey, there's something inside this potted plant. Oh, a key!
     - Ah, it's doesn't fit the door. Maybe there is something else I can open with
       this.
+    - 'Speaker: "I thought I told you to stop poking your nose around the room. You
+      know, I have ways of making you regret your decisions. Think wisely about how
+      you proceed from now on."'
 --- !u!114 &114743324413694570
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2132,47 +2195,45 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookText:
-    name: 
     sentences:
     - Locked. If only a had a key with me...
   altLook: 0
   altLookText:
-    name: 
-    sentences: []
+    sentences:
+    - It's open now. I should really go out, before they find out I escaped.
   canInteract: 0
   interactText:
-    name: 
-    sentences: []
---- !u!114 &114832204781732218
+    sentences:
+    - Let me try this key, and... Yes! It opened! Freedom, here I come!
+--- !u!114 &114819377541221768
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1530920612454324}
+  m_GameObject: {fileID: 1048330015694234}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1862395651, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Script: {fileID: 11500000, guid: 6ecd9866a289c594d8cca39b11968266, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Delegates:
-  - eventID: 4
-    callback:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 114149794377974314}
-          m_MethodName: ShowText
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.EventSystems.EventTrigger+TriggerEvent, UnityEngine.UI,
-        Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  delegates: []
+  dialogues:
+  - sentences:
+    - Ugh, my head. Where am I?
+    - What is this, some kind of office or room?
+    - 'Speaker: "Ah, you are awake. Greetings. You don''t know who I am, but I know
+      who you are. You will take part in an experiment."'
+    - 'Speaker: "Periodically, the light on top of the door will go on. When that
+      happens, you will press the red button on the table once."'
+    - 'Speaker: "If you do this correctly, you will be rewarded. If you press it at
+      the wrong time, you will be punished. The light should be going on any moment
+      now. Enjoy the stay, and don''t try any funny business."'
+    - What the... Is this some kind of joke? A game? I can't believe this is happening.
+    - The light goes on. I guess this is it, then. They said I should press the red
+      button now, and I'll be "rewarded".
+  - sentences:
+    - 'bla
+
+'
 --- !u!114 &114836181944578908
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2361,16 +2422,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lookText:
-    name: 
     sentences:
     - A single chair. It's confortable, but I'd rather be free than this.
   altLook: 0
   altLookText:
-    name: 
     sentences: []
   canInteract: 0
   interactText:
-    name: 
     sentences: []
 --- !u!114 &114988153883442134
 MonoBehaviour:

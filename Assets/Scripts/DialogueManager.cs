@@ -13,6 +13,8 @@ public class DialogueManager : MonoBehaviour {
 
     public Queue<string> sentences;
 
+    public bool isTalking = false;
+
 	// Use this for initialization
 	void Start () {
         //Check if instance already exists
@@ -27,14 +29,13 @@ public class DialogueManager : MonoBehaviour {
             //Then destroy this. This enforces our singleton pattern, meaning there can only ever be one instance of a GameManager.
             Destroy(gameObject);
 
-        //Sets this to not be destroyed when reloading scene
-        DontDestroyOnLoad(gameObject);
 
         sentences = new Queue<string>();
 	}
 	
 	public void StartDialogue(Dialogue dialogue)
     {
+        isTalking = true;
         animator.SetBool("isOpen", true);
 
         sentences.Clear();
@@ -72,6 +73,8 @@ public class DialogueManager : MonoBehaviour {
 
     void EndDialogue()
     {
+
         animator.SetBool("isOpen", false);
+        isTalking = false;
     }
 }
