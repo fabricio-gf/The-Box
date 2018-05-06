@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.57481706, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -175,7 +175,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1131042160
+--- !u!1001 &1245491972
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -282,6 +282,30 @@ Prefab:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1387753384}
+    - target: {fileID: 1028850414372370, guid: e502e0b536c34a148861532c403ec661, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114193831494130372, guid: e502e0b536c34a148861532c403ec661,
+        type: 2}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 114193831494130372, guid: e502e0b536c34a148861532c403ec661,
+        type: 2}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
+      objectReference: {fileID: 0}
+    - target: {fileID: 224623979931699178, guid: e502e0b536c34a148861532c403ec661,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 224623979931699178, guid: e502e0b536c34a148861532c403ec661,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 60
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e502e0b536c34a148861532c403ec661, type: 2}
   m_IsPrefabParent: 0
