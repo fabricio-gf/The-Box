@@ -17,9 +17,22 @@ public class MenuManager : MonoBehaviour {
 
     private void Start()
     {
-        if (SceneManager.GetActiveScene().name == "Game")
+        //Check if instance already exists
+        if (Instance == null)
+
+            //if not, set instance to this
+            Instance = this;
+
+        //If instance already exists and it's not this:
+        else if (Instance != this)
+
+            //Then destroy this. This enforces our singleton pattern, meaning there can only ever be one instance of a GameManager.
+            Destroy(gameObject);
+
+        if (SceneManager.GetActiveScene().name == "Game" || SceneManager.GetActiveScene().name == "End")
         {
             StartCoroutine(FadeIn());
+            narrator = GameObject.FindGameObjectWithTag("Narrator").GetComponent<NarratorBehaviour>();
         }
         music = GameObject.FindGameObjectWithTag("Music").GetComponent<AudioSource>();
     }
@@ -47,8 +60,16 @@ public class MenuManager : MonoBehaviour {
         panel.GetComponent<Animator>().SetBool("isOpen", false);
     }
 
-    public void QuitGame()
+    public void CallQuitGame()
     {
+        StartCoroutine(QuitGame());
+    }
+
+    public IEnumerator QuitGame()
+    {
+        BlackScreen.SetBool("isOn", true);
+        yield return new WaitForSeconds(0.5f);
+
         Application.Quit();
     }
 

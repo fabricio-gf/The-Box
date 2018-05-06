@@ -117,9 +117,55 @@ NavMeshSettings:
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114716390556704444, guid: 4f479606b6c8f214082af206eb47d32f,
     type: 2}
-  m_PrefabInternal: {fileID: 419945021}
+  m_PrefabInternal: {fileID: 472382406}
   m_Script: {fileID: 11500000, guid: a4c9e56e1cda98543a599edc07cd75f6, type: 3}
---- !u!1001 &419945021
+--- !u!114 &419945023 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114043716717804720, guid: 4f479606b6c8f214082af206eb47d32f,
+    type: 2}
+  m_PrefabInternal: {fileID: 472382406}
+  m_Script: {fileID: 11500000, guid: bf7dd43c03059c140b49d2d2c469648b, type: 3}
+--- !u!20 &421963947 stripped
+Camera:
+  m_PrefabParentObject: {fileID: 20186156811582660, guid: 677b63a769814b84a99995934f4b94ef,
+    type: 2}
+  m_PrefabInternal: {fileID: 1936333422}
+--- !u!114 &423681630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 822894515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ecd9866a289c594d8cca39b11968266, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogues:
+  - sentences:
+    - Ugh, my head. Where am I?
+    - What is this, some kind of office or room?
+    - 'Speaker: "Ah, you are awake. Greetings. You don''t know who I am, but I know
+      who you are. You will take part in an experiment."'
+    - 'Speaker: "Periodically, the light on top of the door will go on. When that
+      happens, you will press the red button on the table once."'
+    - 'Speaker: "If you do this correctly, you will be rewarded. If you press it at
+      the wrong time, you will be punished. The light should be going on any moment
+      now. Enjoy the stay, and don''t try any funny business."'
+    - What the... Is this some kind of joke? A game? I can't believe this is happening.
+    - The light goes on. I guess this is it, then. They said I should press the red
+      button now, and I'll be "rewarded".
+  - sentences:
+    - Wait... What is this? A lab? Is this not the way out?
+    - 'Speaker: "Hello player. I see you have made it this far. Well done! We hope
+      it wasn''t too difficult for you."'
+    - What the? Player? Who are they talking to?
+    - 'Speaker: "Player, it was you, in fact, that was in the box the whole time.
+      We tried recreating the Skinner''s Box experiment, and, despite our limitations,
+      we think it was a sucess."'
+    - 'Speaker: "Thank you for playing, and participating in our experiment. We hope
+      you had fun. Now, you are free to go. Until next time!"'
+--- !u!1001 &472382406
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -165,17 +211,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4f479606b6c8f214082af206eb47d32f, type: 2}
   m_IsPrefabParent: 0
---- !u!20 &421963947 stripped
-Camera:
-  m_PrefabParentObject: {fileID: 20186156811582660, guid: 677b63a769814b84a99995934f4b94ef,
-    type: 2}
-  m_PrefabInternal: {fileID: 1936333422}
---- !u!114 &423681630 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114819377541221768, guid: 4f479606b6c8f214082af206eb47d32f,
-    type: 2}
-  m_PrefabInternal: {fileID: 419945021}
-  m_Script: {fileID: 11500000, guid: 6ecd9866a289c594d8cca39b11968266, type: 3}
 --- !u!114 &537875932 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114888122281138230, guid: 46770ec2a8bb88844bed539ce96055a4,
@@ -244,11 +279,40 @@ Animator:
   m_PrefabParentObject: {fileID: 95528799380122704, guid: 46770ec2a8bb88844bed539ce96055a4,
     type: 2}
   m_PrefabInternal: {fileID: 1330887998}
+--- !u!1 &822894515
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 822894516}
+  - component: {fileID: 423681630}
+  m_Layer: 0
+  m_Name: Narrator
+  m_TagString: Narrator
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &822894516
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 822894515}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &866027254 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114685701430307524, guid: 4f479606b6c8f214082af206eb47d32f,
     type: 2}
-  m_PrefabInternal: {fileID: 419945021}
+  m_PrefabInternal: {fileID: 472382406}
   m_Script: {fileID: 11500000, guid: a4c9e56e1cda98543a599edc07cd75f6, type: 3}
 --- !u!114 &872996566 stripped
 MonoBehaviour:
@@ -260,19 +324,19 @@ MonoBehaviour:
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114743324413694570, guid: 4f479606b6c8f214082af206eb47d32f,
     type: 2}
-  m_PrefabInternal: {fileID: 419945021}
+  m_PrefabInternal: {fileID: 472382406}
   m_Script: {fileID: 11500000, guid: a4c9e56e1cda98543a599edc07cd75f6, type: 3}
 --- !u!114 &1042945933 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114097542345759178, guid: 4f479606b6c8f214082af206eb47d32f,
     type: 2}
-  m_PrefabInternal: {fileID: 419945021}
+  m_PrefabInternal: {fileID: 472382406}
   m_Script: {fileID: 11500000, guid: a4c9e56e1cda98543a599edc07cd75f6, type: 3}
 --- !u!114 &1093848580 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114313190923640304, guid: 4f479606b6c8f214082af206eb47d32f,
     type: 2}
-  m_PrefabInternal: {fileID: 419945021}
+  m_PrefabInternal: {fileID: 472382406}
   m_Script: {fileID: 11500000, guid: a4c9e56e1cda98543a599edc07cd75f6, type: 3}
 --- !u!1 &1280186544
 GameObject:
@@ -300,7 +364,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 702658399}
-  - {fileID: 1726439156}
   - {fileID: 1619541215}
   - {fileID: 1979017849}
   m_Father: {fileID: 0}
@@ -429,7 +492,7 @@ Prefab:
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114452650571800726, guid: 4f479606b6c8f214082af206eb47d32f,
     type: 2}
-  m_PrefabInternal: {fileID: 419945021}
+  m_PrefabInternal: {fileID: 472382406}
   m_Script: {fileID: 11500000, guid: a4c9e56e1cda98543a599edc07cd75f6, type: 3}
 --- !u!1 &1459820209 stripped
 GameObject:
@@ -473,7 +536,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4499473796494056, guid: 40586c76725e32f45bfb8de373cb39b3, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114093642433452232, guid: 40586c76725e32f45bfb8de373cb39b3,
         type: 2}
@@ -570,58 +633,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1726439155
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1280186545}
-    m_Modifications:
-    - target: {fileID: 4068984502107946, guid: 2a495854eb3ca0d45a5c5e9b58d85f18, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4068984502107946, guid: 2a495854eb3ca0d45a5c5e9b58d85f18, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4068984502107946, guid: 2a495854eb3ca0d45a5c5e9b58d85f18, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4068984502107946, guid: 2a495854eb3ca0d45a5c5e9b58d85f18, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4068984502107946, guid: 2a495854eb3ca0d45a5c5e9b58d85f18, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4068984502107946, guid: 2a495854eb3ca0d45a5c5e9b58d85f18, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4068984502107946, guid: 2a495854eb3ca0d45a5c5e9b58d85f18, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4068984502107946, guid: 2a495854eb3ca0d45a5c5e9b58d85f18, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 2a495854eb3ca0d45a5c5e9b58d85f18, type: 2}
-  m_IsPrefabParent: 0
---- !u!4 &1726439156 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4068984502107946, guid: 2a495854eb3ca0d45a5c5e9b58d85f18,
-    type: 2}
-  m_PrefabInternal: {fileID: 1726439155}
 --- !u!114 &1826368873 stripped
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114297903148083416, guid: 4f479606b6c8f214082af206eb47d32f,
     type: 2}
-  m_PrefabInternal: {fileID: 419945021}
+  m_PrefabInternal: {fileID: 472382406}
   m_Script: {fileID: 11500000, guid: a4c9e56e1cda98543a599edc07cd75f6, type: 3}
 --- !u!1001 &1876327636
 Prefab:
@@ -660,7 +676,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4343199143760782, guid: c0179c78db4ed00468475c4ed17dc307, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114786617518751076, guid: c0179c78db4ed00468475c4ed17dc307,
         type: 2}
@@ -707,6 +723,11 @@ Prefab:
       propertyPath: ItemListAnimator
       value: 
       objectReference: {fileID: 1540645394}
+    - target: {fileID: 114786617518751076, guid: c0179c78db4ed00468475c4ed17dc307,
+        type: 2}
+      propertyPath: endGame
+      value: 
+      objectReference: {fileID: 419945023}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c0179c78db4ed00468475c4ed17dc307, type: 2}
   m_IsPrefabParent: 0
@@ -770,5 +791,5 @@ Transform:
 MonoBehaviour:
   m_PrefabParentObject: {fileID: 114410523437542146, guid: 4f479606b6c8f214082af206eb47d32f,
     type: 2}
-  m_PrefabInternal: {fileID: 419945021}
+  m_PrefabInternal: {fileID: 472382406}
   m_Script: {fileID: 11500000, guid: a4c9e56e1cda98543a599edc07cd75f6, type: 3}

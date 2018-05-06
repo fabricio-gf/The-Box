@@ -12,6 +12,8 @@ public class PuzzleManager : MonoBehaviour {
 
     public Animator ItemListAnimator;
 
+    public EndGame endGame;
+
 	// Use this for initialization
 	void Start () {
         //Check if instance already exists
@@ -42,6 +44,9 @@ public class PuzzleManager : MonoBehaviour {
                 break;
             case 6:
                 ItemManager.Instance.ShowNextItem();
+                break;
+            case 7:
+                endGame.isEnd = true;
                 break;
             default:
                 break;

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour {
 
@@ -32,8 +33,16 @@ public class DialogueManager : MonoBehaviour {
 
         sentences = new Queue<string>();
 	}
-	
-	public void StartDialogue(Dialogue dialogue)
+
+    private void Update()
+    {
+        if (isTalking && Input.GetKeyDown(KeyCode.Space))
+        {
+            DisplayNextSentence();
+        }
+    }
+
+    public void StartDialogue(Dialogue dialogue)
     {
         isTalking = true;
         animator.SetBool("isOpen", true);
@@ -73,8 +82,12 @@ public class DialogueManager : MonoBehaviour {
 
     void EndDialogue()
     {
-
         animator.SetBool("isOpen", false);
         isTalking = false;
+
+        if(SceneManager.GetActiveScene().name == "End")
+        {
+            StartCoroutine(MenuManager.Instance.QuitGame());
+        }
     }
 }

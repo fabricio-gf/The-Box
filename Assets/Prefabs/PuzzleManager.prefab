@@ -61,3 +61,4 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   ItemListAnimator: {fileID: 0}
+  endGame: {fileID: 0}

@@ -11,22 +11,6 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 1856312997525208}
   m_IsPrefabParent: 1
---- !u!1 &1048330015694234
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 4235436523446342}
-  - component: {fileID: 114819377541221768}
-  m_Layer: 0
-  m_Name: Narrator
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &1083534523276022
 GameObject:
   m_ObjectHideFlags: 0
@@ -170,6 +154,7 @@ GameObject:
   - component: {fileID: 114743324413694570}
   - component: {fileID: 60666506670594354}
   - component: {fileID: 114236944477610522}
+  - component: {fileID: 114043716717804720}
   m_Layer: 0
   m_Name: base_gj_porta
   m_TagString: Interactable
@@ -465,7 +450,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4098507703259452
 Transform:
@@ -478,7 +463,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4170546003412208
 Transform:
@@ -491,7 +476,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4222274999332402
 Transform:
@@ -504,20 +489,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &4235436523446342
-Transform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1048330015694234}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 0
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4268088283922896
 Transform:
@@ -530,7 +502,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4282101674369996
 Transform:
@@ -543,7 +515,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4354588556316710
 Transform:
@@ -556,7 +528,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4391929177888710
 Transform:
@@ -569,7 +541,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4397570385525290
 Transform:
@@ -582,7 +554,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4471430037639712
 Transform:
@@ -594,7 +566,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4235436523446342}
   - {fileID: 4766057047977824}
   - {fileID: 4282101674369996}
   - {fileID: 4891824876593314}
@@ -629,7 +600,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4628768838581330
 Transform:
@@ -655,7 +626,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4693670675910146
 Transform:
@@ -669,7 +640,7 @@ Transform:
   m_Children:
   - {fileID: 4628768838581330}
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4695727589061284
 Transform:
@@ -682,7 +653,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4700370379642678
 Transform:
@@ -708,7 +679,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4766057047977824
 Transform:
@@ -721,7 +692,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4845990409124436
 Transform:
@@ -734,7 +705,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4875837655125142
 Transform:
@@ -748,7 +719,7 @@ Transform:
   m_Children:
   - {fileID: 4700370379642678}
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4891824876593314
 Transform:
@@ -761,7 +732,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4896674714475792
 Transform:
@@ -774,7 +745,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4970923242103648
 Transform:
@@ -787,7 +758,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4471430037639712}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &23930001250570376
 MeshRenderer:
@@ -1423,6 +1394,18 @@ TextMesh:
   m_Color:
     serializedVersion: 2
     rgba: 4278255403
+--- !u!114 &114043716717804720
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1334996933194638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf7dd43c03059c140b49d2d2c469648b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEnd: 0
 --- !u!114 &114097542345759178
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1605,6 +1588,17 @@ MonoBehaviour:
         m_Calls:
         - m_Target: {fileID: 114743324413694570}
           m_MethodName: ShowText
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 114043716717804720}
+          m_MethodName: End
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -2205,35 +2199,6 @@ MonoBehaviour:
   interactText:
     sentences:
     - Let me try this key, and... Yes! It opened! Freedom, here I come!
---- !u!114 &114819377541221768
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1048330015694234}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ecd9866a289c594d8cca39b11968266, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogues:
-  - sentences:
-    - Ugh, my head. Where am I?
-    - What is this, some kind of office or room?
-    - 'Speaker: "Ah, you are awake. Greetings. You don''t know who I am, but I know
-      who you are. You will take part in an experiment."'
-    - 'Speaker: "Periodically, the light on top of the door will go on. When that
-      happens, you will press the red button on the table once."'
-    - 'Speaker: "If you do this correctly, you will be rewarded. If you press it at
-      the wrong time, you will be punished. The light should be going on any moment
-      now. Enjoy the stay, and don''t try any funny business."'
-    - What the... Is this some kind of joke? A game? I can't believe this is happening.
-    - The light goes on. I guess this is it, then. They said I should press the red
-      button now, and I'll be "rewarded".
-  - sentences:
-    - 'bla
-
-'
 --- !u!114 &114836181944578908
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2945,7 +2910,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 852507ad2eaebac48b91952cebafbfc9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e36599d8d0162424b86e8f9cee474369, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
