@@ -5,12 +5,12 @@ using UnityEngine.AI;
 
 public class InputManager : MonoBehaviour {
 
-    public GameObject player;
+    //public GameObject player;
     NavMeshAgent agent;
 
     private void Awake()
     {
-        agent = player.GetComponent<NavMeshAgent>();
+        //agent = player.GetComponent<NavMeshAgent>();
     }
 
     private void Update()
@@ -25,6 +25,10 @@ public class InputManager : MonoBehaviour {
                 {
                     Move(hit.point);
                 }
+                /*if(hit.transform.tag == "Interactable")
+                {
+                    hit.transform.GetComponent<InteractableBehaviour>().ShowText();
+                }*/
             }
         }
     }

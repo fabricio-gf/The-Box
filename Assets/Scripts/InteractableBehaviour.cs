@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class InteractableBehaviour : MonoBehaviour {
 
@@ -10,12 +11,17 @@ public class InteractableBehaviour : MonoBehaviour {
 
     public Dialogue interactText;
 
-	public void ShowLookText()
+    public void ShowText()
+    {
+        ShowLookText();
+    }
+
+	void ShowLookText()
     {
         FindObjectOfType<DialogueManager>().StartDialogue(lookText);
     }
 
-    public void ShowInteractText()
+    void ShowInteractText()
     {
         FindObjectOfType<DialogueManager>().StartDialogue(interactText);
     }

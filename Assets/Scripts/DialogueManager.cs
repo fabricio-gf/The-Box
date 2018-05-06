@@ -42,13 +42,14 @@ public class DialogueManager : MonoBehaviour {
         }
 
         string sentence = sentences.Dequeue();
-        StopCoroutine("TypeSentence");
+        StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
     }
 
     IEnumerator TypeSentence(string sentence)
     {
         dialogueText.text = "";
+        print(sentence);
         foreach (char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
