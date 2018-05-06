@@ -7,22 +7,29 @@ public class InteractableBehaviour : MonoBehaviour {
 
     public Dialogue lookText;
 
-    public bool canInteract;
+    public bool altLook = false;
+    public Dialogue altLookText;
 
+    public bool canInteract = false;
     public Dialogue interactText;
 
     public void ShowText()
     {
-        ShowLookText();
-    }
+        if (canInteract)
+        {
+            DialogueManager.Instance.StartDialogue(interactText);
+            PuzzleManager.Instance.NextPuzzle();
+            canInteract = false;
+            altLook = true;
+        }
+        else if (altLook)
+        {
+            DialogueManager.Instance.StartDialogue(altLookText);
+        }
+        else
+        {
+            DialogueManager.Instance.StartDialogue(lookText);
+        }
 
-	void ShowLookText()
-    {
-        FindObjectOfType<DialogueManager>().StartDialogue(lookText);
-    }
-
-    void ShowInteractText()
-    {
-        FindObjectOfType<DialogueManager>().StartDialogue(interactText);
     }
 }

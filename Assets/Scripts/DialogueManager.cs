@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour {
 
-    public Text nameText;
+    public static DialogueManager Instance;
+
     public Text dialogueText;
 
     public Animator animator;
@@ -14,14 +15,27 @@ public class DialogueManager : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        //Check if instance already exists
+        if (Instance == null)
+
+            //if not, set instance to this
+            Instance = this;
+
+        //If instance already exists and it's not this:
+        else if (Instance != this)
+
+            //Then destroy this. This enforces our singleton pattern, meaning there can only ever be one instance of a GameManager.
+            Destroy(gameObject);
+
+        //Sets this to not be destroyed when reloading scene
+        DontDestroyOnLoad(gameObject);
+
         sentences = new Queue<string>();
 	}
 	
 	public void StartDialogue(Dialogue dialogue)
     {
         animator.SetBool("isOpen", true);
-        
-        nameText.text = dialogue.name;
 
         sentences.Clear();
 
@@ -49,7 +63,6 @@ public class DialogueManager : MonoBehaviour {
     IEnumerator TypeSentence(string sentence)
     {
         dialogueText.text = "";
-        print(sentence);
         foreach (char letter in sentence.ToCharArray())
         {
             dialogueText.text += letter;
