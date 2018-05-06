@@ -7,10 +7,16 @@ public class InteractableBehaviour : MonoBehaviour {
     public Dialogue lookText;
 
     public bool canInteract;
-    public bool interactText;
 
-	public void ShowLookAtText()
+    public Dialogue interactText;
+
+	public void ShowLookText()
     {
         FindObjectOfType<DialogueManager>().StartDialogue(lookText);
+    }
+
+    public void ShowInteractText()
+    {
+        FindObjectOfType<DialogueManager>().StartDialogue(interactText);
     }
 }
