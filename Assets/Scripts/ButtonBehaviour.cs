@@ -36,7 +36,7 @@ public class ButtonBehaviour : MonoBehaviour {
 
     IEnumerator RandomLight()
     {
-        yield return new WaitForSeconds(Random.Range(10f, 20f));
+        yield return new WaitForSeconds(Random.Range(40f, 60f));
         if (!DialogueManager.Instance.isTalking)
         {
             DialogueManager.Instance.StartDialogue(lightDialogue);

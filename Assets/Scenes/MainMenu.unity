@@ -156,6 +156,11 @@ Prefab:
       propertyPath: m_TagString
       value: Music
       objectReference: {fileID: 0}
+    - target: {fileID: 82074899143668116, guid: 9a9a9773146b218419003505c832088e,
+        type: 2}
+      propertyPath: m_Volume
+      value: 0.6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9a9a9773146b218419003505c832088e, type: 2}
   m_IsPrefabParent: 0
@@ -274,6 +279,11 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: CallQuitGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 95359404984801982, guid: e502e0b536c34a148861532c403ec661,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e502e0b536c34a148861532c403ec661, type: 2}
