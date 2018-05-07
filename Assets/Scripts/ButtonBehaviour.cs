@@ -16,6 +16,7 @@ public class ButtonBehaviour : MonoBehaviour {
     private void Start()
     {
         isRightTime = true;
+        StartCoroutine(RandomLight());
     }
 
     public void PressButton()
@@ -30,13 +31,12 @@ public class ButtonBehaviour : MonoBehaviour {
             points++;
             displayText.text = points.ToString();
             isRightTime = false;
-            StartCoroutine(RandomLight());
         }
     }
 
     IEnumerator RandomLight()
     {
-        yield return new WaitForSeconds(Random.Range(5f, 10f));
+        yield return new WaitForSeconds(Random.Range(10f, 20f));
         if (!DialogueManager.Instance.isTalking)
         {
             DialogueManager.Instance.StartDialogue(lightDialogue);

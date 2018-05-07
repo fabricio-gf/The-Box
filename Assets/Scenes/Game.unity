@@ -208,6 +208,11 @@ Prefab:
       propertyPath: m_Name
       value: === ROOM ===
       objectReference: {fileID: 0}
+    - target: {fileID: 114743324413694570, guid: 4f479606b6c8f214082af206eb47d32f,
+        type: 2}
+      propertyPath: lookText.sentences.Array.data[0]
+      value: It's locked
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4f479606b6c8f214082af206eb47d32f, type: 2}
   m_IsPrefabParent: 0
