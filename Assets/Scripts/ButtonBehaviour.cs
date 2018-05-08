@@ -7,6 +7,8 @@ public class ButtonBehaviour : MonoBehaviour {
     public TextMesh displayText;
     public int points = 0;
 
+    public GameObject redLight;
+
     public Dialogue lightDialogue;
     public Dialogue wrongDialogue;
     public Dialogue rightDialogue;
@@ -30,18 +32,20 @@ public class ButtonBehaviour : MonoBehaviour {
             DialogueManager.Instance.StartDialogue(rightDialogue);
             points++;
             displayText.text = points.ToString();
+            redLight.SetActive(false);
             isRightTime = false;
         }
     }
 
     IEnumerator RandomLight()
     {
-        yield return new WaitForSeconds(Random.Range(40f, 60f));
-        if (!DialogueManager.Instance.isTalking)
-        {
-            DialogueManager.Instance.StartDialogue(lightDialogue);
+        yield return new WaitForSeconds(Random.Range(20f, 40f));
+        //if (!DialogueManager.Instance.isTalking)
+        //{
+            //DialogueManager.Instance.StartDialogue(lightDialogue);
+            redLight.SetActive(true);
             isRightTime = true;
-        }
+        //}
         StartCoroutine(RandomLight());
     }
 }

@@ -147,14 +147,14 @@ MonoBehaviour:
     - What is this, some kind of office or room?
     - 'Speaker: "Ah, you are awake. Greetings. You don''t know who I am, but I know
       who you are. You will take part in an experiment."'
-    - 'Speaker: "Periodically, the light on top of the door will go on. When that
-      happens, you will press the red button on the table once."'
+    - 'Speaker: "Look at the red light on top of the door. Periodically, it will go
+      on. When that happens, you will press the red button on the table once."'
     - 'Speaker: "If you do this correctly, you will be rewarded. If you press it at
-      the wrong time, you will be punished. The light should be going on any moment
-      now. Enjoy the stay, and don''t try any funny business."'
+      the wrong time, you will be punished. The light should be going on every few
+      minutes. Enjoy the stay, and don''t try any funny business."'
     - What the... Is this some kind of joke? A game? I can't believe this is happening.
-    - The light goes on. I guess this is it, then. They said I should press the red
-      button now, and I'll be "rewarded".
+    - Well, the light's on. I guess this is it, then. They said I should press the
+      red button now, and I'll be "rewarded".
   - sentences:
     - Wait... What is this? A lab? Is this not the way out?
     - 'Speaker: "Hello player. I see you have made it this far. Well done! We hope
@@ -208,10 +208,14 @@ Prefab:
       propertyPath: m_Name
       value: === ROOM ===
       objectReference: {fileID: 0}
-    - target: {fileID: 114743324413694570, guid: 4f479606b6c8f214082af206eb47d32f,
+    - target: {fileID: 114372260217768812, guid: 4f479606b6c8f214082af206eb47d32f,
         type: 2}
-      propertyPath: lookText.sentences.Array.data[0]
-      value: It's locked
+      propertyPath: redLight
+      value: 
+      objectReference: {fileID: 1113524609}
+    - target: {fileID: 1156703590244464, guid: 4f479606b6c8f214082af206eb47d32f, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4f479606b6c8f214082af206eb47d32f, type: 2}
@@ -343,6 +347,11 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 472382406}
   m_Script: {fileID: 11500000, guid: a4c9e56e1cda98543a599edc07cd75f6, type: 3}
+--- !u!1 &1113524609 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1156703590244464, guid: 4f479606b6c8f214082af206eb47d32f,
+    type: 2}
+  m_PrefabInternal: {fileID: 472382406}
 --- !u!1 &1280186544
 GameObject:
   m_ObjectHideFlags: 0
